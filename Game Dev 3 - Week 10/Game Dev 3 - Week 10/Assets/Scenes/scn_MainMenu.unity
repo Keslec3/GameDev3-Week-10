@@ -528,10 +528,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 8300000, guid: d2df8f81f708bcd45a56e357d22e396b, type: 3}
-  goodPickupSound: {fileID: 11400000, guid: 5e9db0213f144ba48824658dd885e524, type: 2}
-  badPickupSound: {fileID: 11400000, guid: b4d56ee8a69e9484b8f9437e9aec3465, type: 2}
-  dashSound: {fileID: 11400000, guid: 3687cf15426aaf6458b255f10ec036f2, type: 2}
-  lifeSoundData: {fileID: 11400000, guid: cff8fbd08621a414a9e77f588d384430, type: 2}
+  goodPickupSound: {fileID: 8300000, guid: a0e399f2568bdf442b51bdf5ff694e38, type: 3}
+  badPickupSound: {fileID: 8300000, guid: 2279d47c7d9817246ae81b72e8ee0700, type: 3}
+  dashSound: {fileID: 8300000, guid: 88ffcefd94d1d5742aaa3d6d047bce3c, type: 3}
+  lifeSound: {fileID: 8300000, guid: ea71a12d0075eab4e99db87a7236ffe6, type: 3}
   audioSource_Music: {fileID: 605593228}
   audioSource_Sounds: {fileID: 605593231}
 --- !u!82 &605593231

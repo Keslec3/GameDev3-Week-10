@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GameDevWithMarco.DataSO;
 
 namespace GameDevWithMarco.Managers
 {
@@ -12,10 +11,10 @@ public class AudioManager : Singleton<AudioManager>
     /// </summary>
 
     [SerializeField] AudioClip backgroundMusic;
-    [SerializeField] private SoundSO goodPickupSound;
-    [SerializeField] private SoundSO badPickupSound;
-    [SerializeField] private SoundSO dashSound;
-    [SerializeField] private SoundSO lifeSoundData;
+    [SerializeField] AudioClip goodPickupSound;
+    [SerializeField] AudioClip badPickupSound;
+    [SerializeField] AudioClip dashSound;
+    [SerializeField] AudioClip lifeSound;
     [SerializeField] AudioSource audioSource_Music;
     [SerializeField] AudioSource audioSource_Sounds;
 
@@ -40,33 +39,20 @@ public class AudioManager : Singleton<AudioManager>
             }
         }
     }
-    
-    private void PlaySound(float lowPitchRange, float highPitchRange, AudioClip clipToPlay, float volume)
-    {
-       audioSource_Sounds.pitch = Random.Range(lowPitchRange, highPitchRange);
-       audioSource_Sounds.PlayOneShot(clipToPlay);
-       audioSource_Sounds.volume = volume;
-    }
 
 
     public void GoodPickupSound()
-{
-        PlaySound(
-        goodPickupSound.lowPitchRange,
-        goodPickupSound.highPitchRange,
-        goodPickupSound.clipToUse,
-        goodPickupSound.volume);
-}
-
-public void BadPickupSound()
-{
-        PlaySound(
-        badPickupSound.lowPitchRange,
-        badPickupSound.highPitchRange,
-        badPickupSound.clipToUse,
-        badPickupSound.volume);
-}
-
+    {
+        audioSource_Sounds.pitch = Random.Range(0.9f, 1.1f);
+        audioSource_Sounds.PlayOneShot(goodPickupSound);
+        audioSource_Sounds.volume = 2f;
+    }
+    public void BadPickupSound()
+    {
+        audioSource_Sounds.pitch = Random.Range(0.9f, 1.1f);
+        audioSource_Sounds.PlayOneShot(badPickupSound);
+        audioSource_Sounds.volume = 0.4f;
+    }
     public void PlayBackgroundMusic()
     {
 
@@ -75,23 +61,17 @@ public void BadPickupSound()
         audioSource_Music.Play();
         audioSource_Music.loop = true;
     }
-    public void DashSound()
-{
-        PlaySound(
-        dashSound.lowPitchRange,
-        dashSound.highPitchRange,
-        dashSound.clipToUse,
-        dashSound.volume);
-}
-
-public void LifePickupSound()
-{
-        PlaySound(
-        lifeSoundData.lowPitchRange,
-        lifeSoundData.highPitchRange,
-        lifeSoundData.clipToUse,
-        lifeSoundData.volume);
-}
-
+    public void Dash()
+    {
+        audioSource_Sounds.pitch = Random.Range(0.7f, 1f);
+        audioSource_Sounds.PlayOneShot(dashSound);
+        audioSource_Sounds.volume = 0.1f;
+    }
+    public void LifePickupSound()
+    {
+        audioSource_Sounds.pitch = Random.Range(0.9f, 1.1f);
+        audioSource_Sounds.PlayOneShot(lifeSound);
+        audioSource_Sounds.volume = 1f;
+    }
 }
 }
