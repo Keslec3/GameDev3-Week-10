@@ -1,31 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using GameDevWithMarco.effects;
-using GameDevWithMarco.Managers;
+﻿using UnityEngine;
+using GameDevWithMarco.Interfaces;
 
-
-
-
-namespace GameDevWithMarco.players
+namespace GameDevWithMarco.Player
 {
-    using UnityEngine;
-
     public class Player_Collision : MonoBehaviour
     {
-        //References
-        private VfxManager vfx;
-        private Ripple ripple;
-        public UIManager ui;
-
-        //Variables
-        public bool greenCollected = false;
-
-        void Start()
-        {
-            Initialisation();
-        }
-
         public void OnTriggerEnter2D(Collider2D collision)
         {
             ExecuteLogicBasedOnWhatWeHaveCollidedWith(collision);
@@ -34,40 +13,11 @@ namespace GameDevWithMarco.players
 
         private void ExecuteLogicBasedOnWhatWeHaveCollidedWith(Collider2D collision)
         {
-            switch (collision.gameObject.tag)
+            ICollidable collidable = collision.GetComponent<ICollidable>();
+            if (collidable != null)
             {
-                case "GoodBox":
-                    GameManager.Instance.GreenPackLogic();
-                    VfxManager.Instance.GoodPickupParticles();
-                    VfxManager.Instance.AddPointsPromptMethod();
-                    ripple.RippleReaction();
-                    AudioManager.Instance.GoodPickupSound();
-                    greenCollected = true;
-                    break;
-                case "BadBox":
-                    GameManager.Instance.RedPackLogic();
-                    VfxManager.Instance.CamShake();
-                    VfxManager.Instance.BadPickupParticles();
-                    VfxManager.Instance.SubtractPointsPromptMethod();
-                    ui.MinusOneLifeFeedback();
-                    AudioManager.Instance.BadPickupSound();
-                    break;
-                case "LifeBox":
-                    GameManager.Instance.lives++;
-                    ripple.RippleReaction();
-                    ui.PlusOneLifeFeedback();
-                    AudioManager.Instance.LifePickupSound();
-                    break;
-                default:
-                    break;
+                collidable.CollidedLogic();
             }
-        }
-
-        private void Initialisation()
-        {
-            vfx = FindObjectOfType<VfxManager>();
-            ripple = FindObjectOfType<Ripple>();
-            ui = FindObjectOfType<UIManager>();
         }
     }
 }
