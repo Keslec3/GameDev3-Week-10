@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GameDevWithMarco.Managers;
 
+
 namespace GameDevWithMarco.players
 {
     using UnityEngine;
@@ -51,43 +52,43 @@ namespace GameDevWithMarco.players
         }
 
         private void Dash()
+{
+    if (direction == 0)
+    {
+        anim.SetBool("isDashing", false);
+        if (!isWaiting)
         {
-            if (direction == 0)
+            if (Input.GetKeyDown(KeyCode.RightArrow))
             {
-                anim.SetBool("isDashing", false);
-                if (!isWaiting)
-                {
-                    if (Input.GetKeyDown(KeyCode.RightArrow))
-                    {
-                        StartCoroutine(MoveToNextPositionToTheRight());
-                        direction = 2;
-                        anim.SetBool("isDashing", true);
-                        AudioManager.Instance.Dash();
-                    }
-                    else if (Input.GetKeyDown(KeyCode.LeftArrow))
-                    {
-                        StartCoroutine(MoveToNextPositionToTheLeft());
-                        direction = 1;
-                        anim.SetBool("isDashing", true);
-                        AudioManager.Instance.Dash();
-                    }
-                }
-
+                StartCoroutine(MoveToNextPositionToTheRight());
+                direction = 2;
+                anim.SetBool("isDashing", true);
+                AudioManager.Instance.DashSound(); // Updated to DashSound()
             }
-            else
+            else if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
-                if (dashTime <= 0)
-                {
-                    direction = 0;
-                    dashTime = startDashTime;
-                    rb.velocity = Vector2.zero;
-                }
-                else
-                {
-                    dashTime -= Time.deltaTime;
-                }
+                StartCoroutine(MoveToNextPositionToTheLeft());
+                direction = 1;
+                anim.SetBool("isDashing", true);
+                AudioManager.Instance.DashSound(); // Updated to DashSound()
             }
         }
+    }
+    else
+    {
+        if (dashTime <= 0)
+        {
+            direction = 0;
+            dashTime = startDashTime;
+            rb.velocity = Vector2.zero;
+        }
+        else
+        {
+            dashTime -= Time.deltaTime;
+        }
+    }
+}
+
 
         private IEnumerator MoveToNextPositionToTheLeft()
         {
