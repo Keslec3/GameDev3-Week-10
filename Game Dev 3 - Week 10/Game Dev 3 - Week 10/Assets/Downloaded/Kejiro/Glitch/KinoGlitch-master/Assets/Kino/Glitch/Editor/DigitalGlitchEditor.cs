@@ -23,7 +23,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace Kino
+namespace GameDevWithMarco.effects
 {
     [CanEditMultipleObjects]
     [CustomEditor(typeof(DigitalGlitch))]

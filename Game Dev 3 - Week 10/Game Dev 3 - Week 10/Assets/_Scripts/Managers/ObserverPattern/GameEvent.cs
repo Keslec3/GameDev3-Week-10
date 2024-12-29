@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace GameDevWithMarco.ObserverPattern
+{
 
 [CreateAssetMenu(fileName ="New Game Event", menuName = "Scriptable Objects/Game Event")]
 public class GameEvent : ScriptableObject
@@ -36,4 +38,5 @@ public class GameEvent : ScriptableObject
     {
         listeners.Remove(listener);
     }
+}
 }

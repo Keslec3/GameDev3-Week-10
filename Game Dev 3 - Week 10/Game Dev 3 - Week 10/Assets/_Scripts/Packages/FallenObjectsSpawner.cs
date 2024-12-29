@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GameDevWithMarco.Managers;
 
+namespace GameDevWithMarco.spawners
+{
 public class FallenObjectsSpawner : MonoBehaviour
 {
     //Referencing Gameobjects
@@ -345,4 +348,5 @@ public class FallenObjectsSpawner : MonoBehaviour
         }
     }
 
+}
 }

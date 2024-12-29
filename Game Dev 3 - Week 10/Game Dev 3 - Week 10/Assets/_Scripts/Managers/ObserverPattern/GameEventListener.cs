@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+namespace GameDevWithMarco.ObserverPattern
+{
 public class GameEventListener : MonoBehaviour
 {
     /// <summary>
@@ -30,4 +32,5 @@ public class GameEventListener : MonoBehaviour
         //The ? checks if response is not equal to null. If it is not, Invoke() the response.
         response?.Invoke();
     }
+}
 }

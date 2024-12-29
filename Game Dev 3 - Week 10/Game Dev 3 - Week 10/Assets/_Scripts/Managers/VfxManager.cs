@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameDevWithMarco.effects;
 using Kino;
 
+namespace GameDevWithMarco.Managers
+{
 public class VfxManager : MonoBehaviour
 {
     
@@ -99,4 +102,5 @@ public class VfxManager : MonoBehaviour
     {
         glitch.intensity = glitchEnd;
     }
+}
 }

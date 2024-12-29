@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace GameDevWithMarco.Managers
+{
 public class AudioManager : Singleton<AudioManager>
 {
     /// <summary>
@@ -71,4 +73,5 @@ public class AudioManager : Singleton<AudioManager>
         audioSource_Sounds.PlayOneShot(lifeSound);
         audioSource_Sounds.volume = 1f;
     }
+}
 }
