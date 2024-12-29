@@ -22,11 +22,13 @@
 //
 using UnityEngine;
 
-namespace Kino
+namespace GameDevWithMarco.effects
 {
+    using UnityEngine;
+
     [ExecuteInEditMode]
     [RequireComponent(typeof(Camera))]
-    [AddComponentMenu("Kino Image Effects/Digital Glitch")]
+    [AddComponentMenu("GameDevWithMarco/Image Effects/Digital Glitch")]
     public class DigitalGlitch : MonoBehaviour
     {
         #region Public Properties

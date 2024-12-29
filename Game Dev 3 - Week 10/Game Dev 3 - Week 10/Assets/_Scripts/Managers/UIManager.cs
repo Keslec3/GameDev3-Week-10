@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+namespace GameDevWithMarco.Managers
+{
 public class UIManager : MonoBehaviour
 {
     //Objects
@@ -148,4 +150,5 @@ public class UIManager : MonoBehaviour
         gameOverScoreComment = GameObject.Find("txt_TotalScoreComment").GetComponent<Text>();             
         FinalComment();
     }
+}
 }

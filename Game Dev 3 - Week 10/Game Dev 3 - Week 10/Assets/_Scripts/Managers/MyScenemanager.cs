@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+namespace GameDevWithMarco.Managers
+{
 public class MyScenemanager : Singleton<MyScenemanager>
 {
     public Animator transitionAnim;
@@ -60,4 +62,5 @@ public class MyScenemanager : Singleton<MyScenemanager>
         GameManager.Instance.RestartGame();
     }
     
+}
 }

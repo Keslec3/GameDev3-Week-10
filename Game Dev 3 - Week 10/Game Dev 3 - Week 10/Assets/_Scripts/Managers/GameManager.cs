@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameDevWithMarco.ObserverPattern;
+using GameDevWithMarco.Managers;
+using GameDevWithMarco.effects;
 
+namespace GameDevWithMarco.Managers
+{
 public class GameManager : Singleton<GameManager>
 {
     
@@ -110,4 +115,5 @@ public class GameManager : Singleton<GameManager>
         lives = 5;
         playTime = 0f;
     }
+}
 }

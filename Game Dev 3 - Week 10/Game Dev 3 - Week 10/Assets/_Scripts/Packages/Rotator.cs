@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace GameDevWithMarco.utilities
+{
 public class Rotator : MonoBehaviour    
 {
     /// <summary>
@@ -21,4 +23,5 @@ public class Rotator : MonoBehaviour
     {
         transform.Rotate(0, 0, rotationSpeed);
     }
+}
 }

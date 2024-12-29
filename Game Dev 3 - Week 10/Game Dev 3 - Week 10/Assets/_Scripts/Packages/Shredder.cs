@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace GameDevWithMarco.utilities
+{
 public class scp_Shredder : MonoBehaviour
 {
     /// <summary>
@@ -11,4 +13,5 @@ public class scp_Shredder : MonoBehaviour
     {
         Destroy(collision.gameObject);
     }
+}
 }
