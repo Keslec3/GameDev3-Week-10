@@ -7,7 +7,7 @@ using Kino;
 
 namespace GameDevWithMarco.Managers
 {
-public class VfxManager : MonoBehaviour
+public class VfxManager : Singleton<VfxManager>
 {
     
     [Header("ScreenShake")]
@@ -31,8 +31,9 @@ public class VfxManager : MonoBehaviour
     [SerializeField] float glitchZero         = 0f;  
     [SerializeField] float gameOverGlitchDelay = 0f; 
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         if (SceneManager.GetActiveScene().name == "scn_GameOver")
         {
             GameOverSceneEffects();
@@ -64,14 +65,20 @@ public class VfxManager : MonoBehaviour
     }
     public void GoodPickupParticles()
     {
-        var goodExplosion = Instantiate(goodPickupParticles, particleSpawnerPos.position, Quaternion.identity) as GameObject;
-        Destroy(goodExplosion, 0.8f);
+    PickupParticles(goodPickupParticles);
     }
+
+    private void PickupParticles(GameObject particles)
+    {
+    var goodExplosion = Instantiate(particles, particleSpawnerPos.position, Quaternion.identity);
+    Destroy(goodExplosion, 0.8f);
+    }
+
     public void BadPickupParticles()
     {
-        var badExplosion = Instantiate(badPickupParticles, particleSpawnerPos.position, Quaternion.identity) as GameObject;
-        Destroy(badExplosion, 0.8f);
+    PickupParticles(badPickupParticles);
     }
+
     public void AddPointsPromptMethod()
     {
         var addPoints = Instantiate(addPointsPrompt, addPointsPromptPosition.position, Quaternion.identity) as GameObject;

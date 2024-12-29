@@ -703,6 +703,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622443333}
   m_CullTransparentMesh: 0
+--- !u!1 &643215980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 643215982}
+  - component: {fileID: 643215981}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &643215981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643215980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115a78b106df11542b4b630759aa3ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodPackagePool: {fileID: 11400000, guid: 4fefb7fe5439de8469ba9cc2566a219a, type: 2}
+  badPackagePool: {fileID: 11400000, guid: e1cfeb9fb50a2844b8e5f55a6c5fd81e, type: 2}
+  lifePackagePool: {fileID: 11400000, guid: b136a3e884e88f241999f8442a26a8ff, type: 2}
+  goodPool: []
+  badPool: []
+  lifePool: []
+--- !u!4 &643215982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643215980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41317716, y: 0.5825944, z: 0.22672722}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691154087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7823425273942441723, guid: fcc8838312df518479b1bc21e6db18a6,
@@ -764,7 +814,6 @@ MonoBehaviour:
   echo: {fileID: 8590924988553098758, guid: eeb34bdb08895e24daef2e3adb64adc5, type: 3}
   dash: {fileID: 691154090}
   instanceLife: 2
-  fallen: {fileID: 1935659311}
 --- !u!1 &916357126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,18 +1508,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1935659311 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
-    type: 3}
-  m_PrefabInstance: {fileID: 6748926941505527754}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b8b69daee1415646a65b4bddbc6da51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2066958913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,7 +1995,7 @@ PrefabInstance:
     - target: {fileID: 5167641516538048573, guid: 31e4f0496d4f42e438e65b98830f7b1c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5167641516538048573, guid: 31e4f0496d4f42e438e65b98830f7b1c,
         type: 3}
@@ -2051,7 +2088,7 @@ PrefabInstance:
     - target: {fileID: 6748926940924965606, guid: e8134171de3afbe43a802b2688cfd135,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6748926940924965606, guid: e8134171de3afbe43a802b2688cfd135,
         type: 3}
@@ -2118,6 +2155,31 @@ PrefabInstance:
         type: 3}
       propertyPath: spawners.Array.size
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: badPackagePercentage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: goodPackagePercentage
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: lifePackagePercentage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: maximum_BadPercentage
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
+        type: 3}
+      propertyPath: minimum_GoodPercentage
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6748926940924965607, guid: e8134171de3afbe43a802b2688cfd135,
         type: 3}
@@ -2586,7 +2648,7 @@ PrefabInstance:
     - target: {fileID: 1226270790993511382, guid: 5f164070704c0234ebf2a130fed6f3eb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1226270790993511382, guid: 5f164070704c0234ebf2a130fed6f3eb,
         type: 3}

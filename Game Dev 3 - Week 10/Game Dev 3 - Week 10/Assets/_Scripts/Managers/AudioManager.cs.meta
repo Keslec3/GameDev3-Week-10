@@ -3,7 +3,14 @@ guid: 69b3d6c30faff7f498c670531efc11c0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - backgroundMusic: {instanceID: 0}
+  - goodPickupSound: {fileID: 11400000, guid: 5e9db0213f144ba48824658dd885e524, type: 2}
+  - badPickupSound: {fileID: 11400000, guid: b4d56ee8a69e9484b8f9437e9aec3465, type: 2}
+  - dashSound: {fileID: 11400000, guid: 3687cf15426aaf6458b255f10ec036f2, type: 2}
+  - lifeSoundData: {fileID: 11400000, guid: cff8fbd08621a414a9e77f588d384430, type: 2}
+  - audioSource_Music: {instanceID: 0}
+  - audioSource_Sounds: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -29,7 +29,7 @@ namespace GameDevWithMarco.players
         public void OnTriggerEnter2D(Collider2D collision)
         {
             ExecuteLogicBasedOnWhatWeHaveCollidedWith(collision);
-            Destroy(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
 
         private void ExecuteLogicBasedOnWhatWeHaveCollidedWith(Collider2D collision)
@@ -38,17 +38,17 @@ namespace GameDevWithMarco.players
             {
                 case "GoodBox":
                     GameManager.Instance.GreenPackLogic();
-                    vfx.GoodPickupParticles();
-                    vfx.AddPointsPromptMethod();
+                    VfxManager.Instance.GoodPickupParticles();
+                    VfxManager.Instance.AddPointsPromptMethod();
                     ripple.RippleReaction();
                     AudioManager.Instance.GoodPickupSound();
                     greenCollected = true;
                     break;
                 case "BadBox":
                     GameManager.Instance.RedPackLogic();
-                    vfx.CamShake();
-                    vfx.BadPickupParticles();
-                    vfx.SubtractPointsPromptMethod();
+                    VfxManager.Instance.CamShake();
+                    VfxManager.Instance.BadPickupParticles();
+                    VfxManager.Instance.SubtractPointsPromptMethod();
                     ui.MinusOneLifeFeedback();
                     AudioManager.Instance.BadPickupSound();
                     break;
