@@ -1,19 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace GameDevWithMarco.effects
 {
-    using UnityEngine;
-
     public class Ripple : MonoBehaviour
     {
-        //Ripple Variables
         public Material RippleMaterial;
         public float MaxAmount = 50f;
-
-        [Range(0, 1)]
-        public float Friction = .9f;
+        [Range(0, 1)] public float Friction = .9f;
         private float Amount = 0f;
 
         public Transform ripplePos;
@@ -23,29 +16,26 @@ namespace GameDevWithMarco.effects
         private void Start()
         {
             cam = GetComponent<Camera>();
-            pos = cam.WorldToScreenPoint(ripplePos.position);
-        }
-        void Update()
-        { 
-            pos = cam.WorldToScreenPoint(ripplePos.position); 
-            this.RippleMaterial.SetFloat("_Amount", this.Amount);
-            this.Amount *= this.Friction;
+            pos = cam.WorldToScreenPoint(ripplePos.position); // Set initial ripple position
         }
 
-        /// <summary>
-        /// This is the method we will call in other scripts
-        /// </summary>
+        void Update()
+        {
+            pos = cam.WorldToScreenPoint(ripplePos.position); // Update position
+            RippleMaterial.SetFloat("_Amount", Amount);
+            Amount *= Friction; // Fade ripple effect
+        }
+
         public void RippleReaction()
         {
-            this.Amount = this.MaxAmount;
-            this.RippleMaterial.SetFloat("_CenterX", pos.x);
-            this.RippleMaterial.SetFloat("_CenterY", pos.y);
+            Amount = MaxAmount; // Trigger ripple
+            RippleMaterial.SetFloat("_CenterX", pos.x);
+            RippleMaterial.SetFloat("_CenterY", pos.y);
         }
 
         void OnRenderImage(RenderTexture src, RenderTexture dst)
         {
-            Graphics.Blit(src, dst, this.RippleMaterial);
+            Graphics.Blit(src, dst, RippleMaterial); // Apply ripple effect
         }
     }
 }
-

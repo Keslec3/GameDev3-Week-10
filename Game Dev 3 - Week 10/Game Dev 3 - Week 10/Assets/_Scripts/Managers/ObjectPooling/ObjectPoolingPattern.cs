@@ -24,6 +24,7 @@ namespace GameDevWithMarco.DesignPattern
         protected override void Awake()
         {
             base.Awake();
+            // Fill each pool during initialization
             FillThePool(goodPackagePool, goodPool);
             FillThePool(badPackagePool, badPool);
             FillThePool(lifePackagePool, lifePool);
@@ -37,19 +38,19 @@ namespace GameDevWithMarco.DesignPattern
                 return;
             }
 
-            GameObject container = CreateAContainerForThePool(poolData);
+            GameObject container = CreateAContainerForThePool(poolData); // Create a container for organization
 
             for (int i = 0; i < poolData.poolAmount; i++)
             {
                 GameObject thingToAddToThePool = Instantiate(poolData.poolItem, container.transform);
-                thingToAddToThePool.SetActive(false);
+                thingToAddToThePool.SetActive(false); // Deactivate pooled items
                 targetPool.Add(thingToAddToThePool);
             }
         }
 
         private GameObject CreateAContainerForThePool(PoolData poolData)
         {
-            GameObject container = new GameObject(poolData.name + " Container");
+            GameObject container = new GameObject(poolData.name + " Container"); // Group items for organization
             container.transform.parent = this.transform;
             return container;
         }
@@ -71,19 +72,17 @@ namespace GameDevWithMarco.DesignPattern
                     break;
             }
 
-            int itemPoolCount = poolToUse.Count;
-
-            for (int i = 0; i < itemPoolCount; i++)
+            for (int i = 0; i < poolToUse.Count; i++)
             {
-                if (!poolToUse[i].activeInHierarchy)
+                if (!poolToUse[i].activeInHierarchy) // Find an inactive item in the pool
                 {
-                    poolToUse[i].SetActive(true);
+                    poolToUse[i].SetActive(true); // Activate and return the item
                     return poolToUse[i];
                 }
             }
 
             Debug.LogWarning("No Available Items Found, Pool Too Small!");
-            return null;
+            return null; // Return null if no available items
         }
     }
 }

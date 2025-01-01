@@ -606,7 +606,7 @@ PrefabInstance:
     - target: {fileID: 3312338274814803720, guid: a2a62b328e57109428c54a81863b1b9e,
         type: 3}
       propertyPath: glitchEnd
-      value: 0.95
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3312338274814803720, guid: a2a62b328e57109428c54a81863b1b9e,
         type: 3}
@@ -631,7 +631,7 @@ PrefabInstance:
     - target: {fileID: 3312338274814803720, guid: a2a62b328e57109428c54a81863b1b9e,
         type: 3}
       propertyPath: gameOverGlitchDelay
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3312338274814803721, guid: a2a62b328e57109428c54a81863b1b9e,
         type: 3}

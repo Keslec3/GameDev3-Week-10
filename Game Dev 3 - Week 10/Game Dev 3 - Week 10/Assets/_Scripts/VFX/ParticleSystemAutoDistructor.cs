@@ -4,23 +4,20 @@ using UnityEngine;
 
 namespace GameDevWithMarco.utilities
 {
-    using UnityEngine;
-
     public class ParticleSystemAutoDistructor : MonoBehaviour
     {
         private ParticleSystem system;
 
-        // Update is called once per frame
         void Update()
         {
             if (system == null)
             {
-                system = GetComponent<ParticleSystem>();
+                system = GetComponent<ParticleSystem>(); // Get the ParticleSystem if not already set
             }
 
-            if (system != null && !system.IsAlive(true))
+            if (system != null && !system.IsAlive(true)) // Check if the particle system has stopped
             {
-                Destroy(gameObject);
+                Destroy(gameObject); // Destroy the GameObject when the particle system is done
             }
         }
     }

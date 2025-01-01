@@ -49,7 +49,7 @@ public class AudioManager : Singleton<AudioManager>
     }
 
 
-    public void GoodPickupSound()
+    public void GoodPickupSound() // good pickup sounds
 {
         PlaySound(
         goodPickupSound.lowPitchRange,
@@ -58,7 +58,7 @@ public class AudioManager : Singleton<AudioManager>
         goodPickupSound.volume);
 }
 
-public void BadPickupSound()
+public void BadPickupSound() // red pick up sounds
 {
         PlaySound(
         badPickupSound.lowPitchRange,
@@ -67,7 +67,7 @@ public void BadPickupSound()
         badPickupSound.volume);
 }
 
-    public void PlayBackgroundMusic()
+    public void PlayBackgroundMusic() // background music
     {
 
         audioSource_Music.volume = 0f;
@@ -75,7 +75,7 @@ public void BadPickupSound()
         audioSource_Music.Play();
         audioSource_Music.loop = true;
     }
-    public void DashSound()
+    public void DashSound() // dash pickup sounds
 {
         PlaySound(
         dashSound.lowPitchRange,
@@ -84,7 +84,7 @@ public void BadPickupSound()
         dashSound.volume);
 }
 
-public void LifePickupSound()
+public void LifePickupSound() //life pickup sounds
 {
         PlaySound(
         lifeSoundData.lowPitchRange,

@@ -10,16 +10,19 @@ namespace GameDevWithMarco.Managers
     public class VfxManager : Singleton<VfxManager>
     {
         [Header("ScreenShake")]
-        public Animator camAnim;
+        public Animator camAnim; // Reference to the camera's shake animation
+
         [Header("Particles")]
         public GameObject goodPickupParticles;
         public GameObject badPickupParticles;
         public Transform particleSpawnerPos;
+
         [Header("PlayerFeedback")]
         public GameObject subtractPointsPrompt;
         public GameObject addPointsPrompt;
         public Transform subtractPointsPromptPosition;
         public Transform addPointsPromptPosition;
+
         [Header("GlitchEffect")]
         public DigitalGlitch glitch;
         [SerializeField] float glitchEnd = 0.95f;
@@ -34,6 +37,7 @@ namespace GameDevWithMarco.Managers
         {
             base.Awake();
 
+            // Apply effects specific to the Game Over scene
             if (SceneManager.GetActiveScene().name == "scn_GameOver")
             {
                 GameOverSceneEffects();
@@ -45,6 +49,7 @@ namespace GameDevWithMarco.Managers
         {
             if (glitch == null) return;
 
+            // Trigger glitch effect based on scene
             if (SceneManager.GetActiveScene().name == "scn_Level1")
             {
                 GlitchWhenFailing();
@@ -65,7 +70,7 @@ namespace GameDevWithMarco.Managers
         {
             if (camAnim != null)
             {
-                camAnim.SetTrigger("shake");
+                camAnim.SetTrigger("shake"); // Trigger camera shake animation
             }
             else
             {
@@ -86,6 +91,7 @@ namespace GameDevWithMarco.Managers
                 return;
             }
 
+            // Spawn and destroy particles
             var explosion = Instantiate(particles, particleSpawnerPos.position, Quaternion.identity);
             Destroy(explosion, 0.8f);
         }
@@ -104,6 +110,7 @@ namespace GameDevWithMarco.Managers
                 return;
             }
 
+            // Show points prompt
             var addPoints = Instantiate(addPointsPrompt, addPointsPromptPosition.position, Quaternion.identity);
             addPoints.transform.SetParent(canvas.transform, false);
             addPoints.transform.position = addPointsPromptPosition.position;
@@ -119,7 +126,8 @@ namespace GameDevWithMarco.Managers
                 return;
             }
 
-            var subtractPoints = Instantiate(this.subtractPointsPrompt, subtractPointsPromptPosition.position, Quaternion.identity);
+            // Show points deduction prompt
+            var subtractPoints = Instantiate(subtractPointsPrompt, subtractPointsPromptPosition.position, Quaternion.identity);
             subtractPoints.transform.SetParent(canvas.transform, false);
             subtractPoints.transform.position = subtractPointsPromptPosition.position;
             Destroy(subtractPoints, 0.8f);
@@ -133,6 +141,7 @@ namespace GameDevWithMarco.Managers
                 return;
             }
 
+            // Adjust glitch intensity based on lives
             switch (GameManager.Instance.lives)
             {
                 case 5: glitch.intensity = glitchZero; break;
@@ -141,12 +150,12 @@ namespace GameDevWithMarco.Managers
                 case 2: glitch.intensity = Mathf.Lerp(glitchStageTwo, glitchStageThree, 1); break;
                 case 1: glitch.intensity = Mathf.Lerp(glitchStageThree, glitchStageFour, 1); break;
                 case 0: glitch.intensity = Mathf.Lerp(glitchStageFour, glitchEnd, 0.2f); break;
-                default: Debug.LogWarning("Unhandled lives count."); break;
             }
         }
 
         private void GameOverSceneEffects()
         {
+            // Set glitch intensity for Game Over scene
             if (glitch != null)
             {
                 glitch.intensity = glitchEnd;

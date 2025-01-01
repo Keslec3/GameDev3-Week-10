@@ -5,62 +5,53 @@ using UnityEngine.SceneManagement;
 
 namespace GameDevWithMarco.Managers
 {
-public class MyScenemanager : Singleton<MyScenemanager>
-{
-    public Animator transitionAnim;
-    private string gameLevel = "scn_Level1";
-    private string gameOver = "scn_GameOver";
-    
-   
-
-    private void Update()
+    public class MyScenemanager : Singleton<MyScenemanager>
     {
-        if (SceneManager.GetActiveScene().name == "scn_MainMenu")
+        public Animator transitionAnim;
+        private string gameLevel = "scn_Level1"; // Name of the main game level
+        private string gameOver = "scn_GameOver"; // Name of the game over scene
+
+        private void Update()
         {
-            StartCoroutine(WaitAndLoadNewScene());
-        }
-    }
-
-   
-
-    
-
-    IEnumerator WaitAndLoadNewScene()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            transitionAnim.SetTrigger("end");
-            yield return new WaitForSeconds(1.5f);
-            SceneManager.LoadScene(gameLevel);            
+            if (SceneManager.GetActiveScene().name == "scn_MainMenu")
+            {
+                StartCoroutine(WaitAndLoadNewScene()); // Trigger scene load from main menu
+            }
         }
 
+        IEnumerator WaitAndLoadNewScene()
+        {
+            if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                transitionAnim.SetTrigger("end"); // Play transition animation
+                yield return new WaitForSeconds(1.5f); // Wait for animation to finish
+                SceneManager.LoadScene(gameLevel); // Load the main game level
+            }
+        }
 
-    }
+        public void GameOverReaction()
+        {
+            StartCoroutine(GameOver()); // Trigger game over scene
+        }
 
-    public void GameOverReaction()
-    {
-        StartCoroutine(GameOver());
-    }
+        IEnumerator GameOver()
+        {
+            transitionAnim.SetTrigger("end"); // Play transition animation
+            yield return new WaitForSeconds(1.5f); // Wait for animation to finish
+            SceneManager.LoadScene(gameOver); // Load the game over scene
+        }
 
-    IEnumerator GameOver()
-    {
-        transitionAnim.SetTrigger("end");
-        yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(gameOver);            
-    }
+        public void RestartGameReaction()
+        {
+            StartCoroutine(RestartGame()); // Restart the game
+        }
 
-    public void RestartGameReaction()
-    {
-        StartCoroutine (RestartGame());
+        IEnumerator RestartGame()
+        {
+            transitionAnim.SetTrigger("end"); // Play transition animation
+            yield return new WaitForSeconds(1.5f); // Wait for animation to finish
+            SceneManager.LoadScene(gameLevel); // Reload the game level
+            GameManager.Instance.RestartGame(); // Reset game variables
+        }
     }
-
-    IEnumerator RestartGame()
-    {
-        transitionAnim.SetTrigger("end");
-        yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(gameLevel);
-        GameManager.Instance.RestartGame();
-    }
-    
-}
 }
