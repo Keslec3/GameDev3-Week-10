@@ -1101,3 +1101,859 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.594060 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene
+  artifactKey: Guid(22bf75832c2aa58408234a70b32592ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene using Guid(22bf75832c2aa58408234a70b32592ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0177bff9cff4248364f49958f9b97a9') in 0.003288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068653 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f0b0c8dbb35d8f1358d5c7016db297') in 0.013242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011650 seconds.
+  path: Assets/Animations/anim_GoodPickupPoints.anim
+  artifactKey: Guid(038976ee0463a2a498656f20df7bb1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_GoodPickupPoints.anim using Guid(038976ee0463a2a498656f20df7bb1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c99bc54475781c8d38884162fcc90a8') in 0.001450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004921 seconds.
+  path: Assets/Animations/Image.controller
+  artifactKey: Guid(73488d280084bc74d8eb86bf3228e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Image.controller using Guid(73488d280084bc74d8eb86bf3228e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f675dad9524982fddd27a55e3dae81') in 0.001754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.055378 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/Model
+  artifactKey: Guid(06be75fcdb47e414190cdbc647c5ba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/Model using Guid(06be75fcdb47e414190cdbc647c5ba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d6b8f23ecf1cec497ac6d03abf4987') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009347 seconds.
+  path: Assets/Animations/BadPickupGhost.anim
+  artifactKey: Guid(7cebd17200f127e40a3649d8194aaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/BadPickupGhost.anim using Guid(7cebd17200f127e40a3649d8194aaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb73eb04405d6f8b9d49c9d6e1aad3c9') in 0.000946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028186 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test/Test.unity
+  artifactKey: Guid(063e3411f747c4651a4db83a8f64c3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test/Test.unity using Guid(063e3411f747c4651a4db83a8f64c3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c494e23197ea61f40cdf45a732ab12') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004412 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Shader/DigitalGlitch.shader
+  artifactKey: Guid(ba40dc630e1d9417cb9ea22586ece1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Shader/DigitalGlitch.shader using Guid(ba40dc630e1d9417cb9ea22586ece1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fde8d4e97ce88cf1fac3a659d44c4a7') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029663 seconds.
+  path: Assets/Animations/Text.controller
+  artifactKey: Guid(d1a9397afc3e90442ba6e170eb470b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Text.controller using Guid(d1a9397afc3e90442ba6e170eb470b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10916cc5a42f69954c2ac55de18346f4') in 0.001253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.017695 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8365c14771796ff17d339b61ffd2609') in 0.001055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009456 seconds.
+  path: Assets/Prefabs/spr_FallingObject_A.prefab
+  artifactKey: Guid(a7dbf5e05fe0b504791b7750c2fc1adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/spr_FallingObject_A.prefab using Guid(a7dbf5e05fe0b504791b7750c2fc1adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232e6345fa5e6056b711a8af5b396cbb') in 0.085479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.008076 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25524e152126d39616bdb6d7e34b8aa6') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018890 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022788 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test
+  artifactKey: Guid(56a4f9fe91aa047ec87c7a4cba7af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test using Guid(56a4f9fe91aa047ec87c7a4cba7af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5a8fa098ae7b31064669e7cb7f65ef') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004441 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/ProjectSettings/ProjectVersion.txt
+  artifactKey: Guid(f33ff31f17fe94c4694d43e74f0e144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/ProjectSettings/ProjectVersion.txt using Guid(f33ff31f17fe94c4694d43e74f0e144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c29439acc8270ffa5f22b3b5be92342') in 0.000838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024143 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor
+  artifactKey: Guid(263f8cf5a4c1141e6a79dc1c86d69dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor using Guid(263f8cf5a4c1141e6a79dc1c86d69dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34901f59dc9d98c93a8ed48d8c2a8e23') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031758 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test/Test.anim
+  artifactKey: Guid(c92a929b1f32e4496b7427c82990427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test/Test.anim using Guid(c92a929b1f32e4496b7427c82990427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45263a578a38fda306c7a7fb9f0b36ff') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003390 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Editor
+  artifactKey: Guid(0c37dfef451934b1db26216248b232ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Editor using Guid(0c37dfef451934b1db26216248b232ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0545cb9b44e67b513ca21a87084e71b7') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004461 seconds.
+  path: Assets/Animations/anim_EndTransition.anim
+  artifactKey: Guid(21d8dfff5e90bfd499158854c73a7190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_EndTransition.anim using Guid(21d8dfff5e90bfd499158854c73a7190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359df873bcba0e4eb401837709706a19') in 0.000970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009114 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f542a590558e68cf66001aa7157ab6') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004186 seconds.
+  path: Assets/Animations/BadPickupEcho.controller
+  artifactKey: Guid(e6e0ee40743304941a9c78df3f4fefe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/BadPickupEcho.controller using Guid(e6e0ee40743304941a9c78df3f4fefe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c6674803ac833fd66e4485c29967d4') in 0.001215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.003343 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/SceneMaterials
+  artifactKey: Guid(d89d43aab94d0dc4291abeeb18851432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/SceneMaterials using Guid(d89d43aab94d0dc4291abeeb18851432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd517965494816ef34647b5b8f98a4e4') in 0.000435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045352 seconds.
+  path: Assets/Animations/anim_StartTransition.anim
+  artifactKey: Guid(708a81acba1484c408f48533cc2b1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_StartTransition.anim using Guid(708a81acba1484c408f48533cc2b1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adfe07905b316ed4cd4c21410552383') in 0.000902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.076545 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor/Utility/JitterMotionEditor.cs
+  artifactKey: Guid(268ea7a40f25a4aca9338ec15fae8021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor/Utility/JitterMotionEditor.cs using Guid(268ea7a40f25a4aca9338ec15fae8021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177a60ef70233590690345c919dbe92d') in 0.000402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015496 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch
+  artifactKey: Guid(475dbe59af99f4ca78aaef74cdd7db46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch using Guid(475dbe59af99f4ca78aaef74cdd7db46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1f6b021a3c017f73de43c25fdca85b') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042664 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124095d405bc252710908efebf7ea55a') in 0.004282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007794 seconds.
+  path: Assets/Animations/anim_IdleTransition.anim
+  artifactKey: Guid(a5146db42c548a143ab03f7c86f3a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_IdleTransition.anim using Guid(a5146db42c548a143ab03f7c86f3a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78785abde76524f82da4eb4823b7f718') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003893 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd056a7dfababafc53d6981a5f975bdfb') in 0.000612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004152 seconds.
+  path: Assets/Animations/PressKeyToPlay.anim
+  artifactKey: Guid(014cd7d2d950f7142a37bbfef84674a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PressKeyToPlay.anim using Guid(014cd7d2d950f7142a37bbfef84674a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07018a92d23fe0cf5d92a1ef10ae963') in 0.000882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004339 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd3e577a21f52d33ecd25c7b851eaeb') in 0.000756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003067 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino
+  artifactKey: Guid(96d6f0c23b5b349a39907f19574573ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino using Guid(96d6f0c23b5b349a39907f19574573ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ca723a33f0e8ffc452ccf2f181ff9') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008405 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor/Utility/ConstantMotionEditor.cs
+  artifactKey: Guid(af7f5def51f424dc4baac2ab376b2c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor/Utility/ConstantMotionEditor.cs using Guid(af7f5def51f424dc4baac2ab376b2c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6780396ca11fcc5c8d69c6469f50cd3a') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022471 seconds.
+  path: Assets/Animations/Echo.controller
+  artifactKey: Guid(e9f7427484a58ad44a2f4597d49eabb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Echo.controller using Guid(e9f7427484a58ad44a2f4597d49eabb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e53cbc3c9b4fc49468d782fa90b2d08') in 0.001146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.047195 seconds.
+  path: Assets/ArtisticAssets/Polishing/anim_Lifepickup.anim
+  artifactKey: Guid(10607d74b33d6ad4d990c969170bdb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/anim_Lifepickup.anim using Guid(10607d74b33d6ad4d990c969170bdb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4619098608047f5f7c5c42f58a84d0') in 0.001254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002762 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be22d1ef66f63031ca6da898dd5950') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007218 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(16191f85301cec74dbc7fd62e43ac11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(16191f85301cec74dbc7fd62e43ac11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649f5638b14240c810002f36eccd1fb6') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014092 seconds.
+  path: Assets/ArtisticAssets/Polishing/Title.png
+  artifactKey: Guid(11a73eb773ba05049a537fc236c6ff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/Title.png using Guid(11a73eb773ba05049a537fc236c6ff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb2731c81bee056db2dd5f9be0b08af') in 0.029709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005059 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Editor/AnalogGlitchEditor.cs
+  artifactKey: Guid(83a6afa77757d4190add8354f39c902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Editor/AnalogGlitchEditor.cs using Guid(83a6afa77757d4190add8354f39c902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31883d9296b6370ec785235a5616832c') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003549 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders
+  artifactKey: Guid(99f836c9cb9345dba2e72c4a1f2d0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders using Guid(99f836c9cb9345dba2e72c4a1f2d0695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d73e2cca3a7dce17a1026065e2883b') in 0.000377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008893 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f014a17defd646601a21ebcdfc14135') in 0.000537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009827 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6c3c68411f712f478263aa3b5c82f1') in 0.011725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004644 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(2f874399f71ae834092544874f759130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(2f874399f71ae834092544874f759130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba671204c089e60df2a5b4ea3c66cd') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053299 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Utility/ConstantMotion.cs
+  artifactKey: Guid(f91a6fa75d39940268b68c6204273e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Utility/ConstantMotion.cs using Guid(f91a6fa75d39940268b68c6204273e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa8ff81b8ac3fc73dc8453b3eb779ea') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004338 seconds.
+  path: Assets/Animations/anim_Dash.anim
+  artifactKey: Guid(48c36ed9f030ae94fa98ea05d498ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_Dash.anim using Guid(48c36ed9f030ae94fa98ea05d498ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590ff2f1879623574fc1ae636f69275b') in 0.000875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004466 seconds.
+  path: Assets/Scenes/scn_Level1.unity
+  artifactKey: Guid(1d62f1f8606121d448e8baab8203e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scn_Level1.unity using Guid(1d62f1f8606121d448e8baab8203e1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d93227d5347ecb0b7e757fdbc060270') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025021 seconds.
+  path: Assets/Downloaded/Kejiro/Ripple/mat_Ripple.mat
+  artifactKey: Guid(392dee8c9debe914b92ba536ecb1912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Ripple/mat_Ripple.mat using Guid(392dee8c9debe914b92ba536ecb1912a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa65633706ad0935ba967ef66ee339e') in 0.025242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004088 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aa1c0f5bb958f771c63e2d4f2a7a09') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005302 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b229211341c40fb5a8bf67fff8f56f97') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015992 seconds.
+  path: Assets/Animations/GoodPickup (1).controller
+  artifactKey: Guid(b7640a8962bb4dd4884a8203082651cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GoodPickup (1).controller using Guid(b7640a8962bb4dd4884a8203082651cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d82b43b23e2f54578e44ad7ac30a7a') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004173 seconds.
+  path: Assets/ArtisticAssets/Polishing/LifePickup (1).controller
+  artifactKey: Guid(bf04157f0fb090b41976ef25a38caeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/LifePickup (1).controller using Guid(bf04157f0fb090b41976ef25a38caeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7b704a112ef2e947b9b0bf93e3ab92') in 0.001201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004981 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdb8b47a2915b4cb7efac5bd98bf3b') in 0.000742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004888 seconds.
+  path: Assets/Downloaded/Kejiro/Ripple/PostEffectsRipple.shader
+  artifactKey: Guid(8a83c8f9995a4424b87fc03f0a931bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Ripple/PostEffectsRipple.shader using Guid(8a83c8f9995a4424b87fc03f0a931bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9863513784c860927475417e6e362b28') in 0.000637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014188 seconds.
+  path: Assets/Animations/anim_MinusOneLife.anim
+  artifactKey: Guid(e1a0ce09914f8ce47abb64eee21fbe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_MinusOneLife.anim using Guid(e1a0ce09914f8ce47abb64eee21fbe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd024d4cdcb6196d7601a4c04498306fa') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007837 seconds.
+  path: Assets/Prefabs/spr_Character.prefab
+  artifactKey: Guid(fcc8838312df518479b1bc21e6db18a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/spr_Character.prefab using Guid(fcc8838312df518479b1bc21e6db18a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c46d763ab2d3a8674aca1dafc51070') in 0.012838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.031986 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7ef1adc078f0eea5692108db7f96ed') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006801 seconds.
+  path: Assets/Animations/PanelAnimation.controller
+  artifactKey: Guid(1cb30ed0027af8c4d964c258525ea37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PanelAnimation.controller using Guid(1cb30ed0027af8c4d964c258525ea37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8169bf7afaff8d42b70741688b4e58') in 0.001596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.203478 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/AnalogGlitch.cs
+  artifactKey: Guid(870b9a8f0f82f4f56800cc427bcd1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/AnalogGlitch.cs using Guid(870b9a8f0f82f4f56800cc427bcd1025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985b524e9f87be19f2204c6ee419daf5') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053258 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2454e15e8eee500547ca819987cf861c') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079049 seconds.
+  path: Assets/ArtisticAssets/Polishing/Particle_A.png
+  artifactKey: Guid(7ad8b47f76b5ba54ebe0cecf4b72da18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/Particle_A.png using Guid(7ad8b47f76b5ba54ebe0cecf4b72da18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8e29ee5adab3bae140855cdcf973c3') in 0.015987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008901 seconds.
+  path: Assets/_Scripts/Packages/FallenObjectsSpawner.cs
+  artifactKey: Guid(5b8b69daee1415646a65b4bddbc6da51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Packages/FallenObjectsSpawner.cs using Guid(5b8b69daee1415646a65b4bddbc6da51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bcad68b45d3ddb765be3cf0130f470') in 0.000462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005019 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d3d8d16ebbfc6baf7862d52852702b') in 0.000802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003921 seconds.
+  path: Assets/Downloaded
+  artifactKey: Guid(fd1fb6a69c533434587800e77f9ca502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded using Guid(fd1fb6a69c533434587800e77f9ca502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9bec9f31c25bd5871ad46830bf1cc6') in 0.000381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018590 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Editor/PackageTool.cs
+  artifactKey: Guid(6ac54410b610f47b18249055e1f9b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Editor/PackageTool.cs using Guid(6ac54410b610f47b18249055e1f9b668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ddfc76acb0e3179ea99f6356c42f3f') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031392 seconds.
+  path: Assets/Animations/SubTitle_2.controller
+  artifactKey: Guid(8c6ccb395eea4c944afcdb50bb339e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SubTitle_2.controller using Guid(8c6ccb395eea4c944afcdb50bb339e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4165f43d8aa37fc934b102f0cf132acb') in 0.001137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.003909 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Shader
+  artifactKey: Guid(2250de079b9f84c57bc993ee77ff4a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Shader using Guid(2250de079b9f84c57bc993ee77ff4a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfb191f737c0ffff0ed2435e8479f2e') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005155 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ec48189e7285c5a95e70ea17d6f693') in 0.000803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016447 seconds.
+  path: Assets/ArtisticAssets/Polishing
+  artifactKey: Guid(52992efb712a4274b9f67e26001234cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing using Guid(52992efb712a4274b9f67e26001234cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0233bb898cb0dda343d5a5acdc5c95') in 0.000492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003183 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7eab248413d5372ca0e38f8fa86db8') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052941 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Editor
+  artifactKey: Guid(4fd2d5583441d464f8fa120133849ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Editor using Guid(4fd2d5583441d464f8fa120133849ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e42ecec8f73737ccbbc89e09aec5813') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008549 seconds.
+  path: Assets/Prefabs/GoodPickup.prefab
+  artifactKey: Guid(fd5f7ca403eb6d843bae5ffab6f76cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoodPickup.prefab using Guid(fd5f7ca403eb6d843bae5ffab6f76cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f482b30ee218899b9f5df3f268342c4') in 0.012604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.075559 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test/Test.controller
+  artifactKey: Guid(7c0b5746436194670a1330e701de40f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Test/Test.controller using Guid(7c0b5746436194670a1330e701de40f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3c6dc12ecfa88c7d2ebe8ee03ecd00') in 0.001342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.025713 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Utility/JitterMotion.cs
+  artifactKey: Guid(d637268abbbb5428e991dd9ec93136f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Utility/JitterMotion.cs using Guid(d637268abbbb5428e991dd9ec93136f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93e55d960f272248e80d7c023220030') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005260 seconds.
+  path: Assets/ArtisticAssets/Polishing/txt_SubtractPoints.controller
+  artifactKey: Guid(46a752d11ab582049a9457fcdd2bbf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/txt_SubtractPoints.controller using Guid(46a752d11ab582049a9457fcdd2bbf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f4b92784f2f50387c360375ebe3601') in 0.001099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.022629 seconds.
+  path: Assets/Animations/spr_Character.controller
+  artifactKey: Guid(ad6f5af3bc081e14b810cb72baa331d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/spr_Character.controller using Guid(ad6f5af3bc081e14b810cb72baa331d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3906cd3f2596bd9104da540c845c2449') in 0.001179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.004902 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Shader/AnalogGlitch.shader
+  artifactKey: Guid(da33272284ea24f208f36998880990be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Shader/AnalogGlitch.shader using Guid(da33272284ea24f208f36998880990be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55b4993ebdad09e1ace6413c8ce1c22') in 0.000738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022873 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba9d4ceda6227361324a437f3a7b970') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010573 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99efe2ca3c61be55c62ef1e074cdb82f') in 0.000810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018700 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/SceneTextures
+  artifactKey: Guid(9c3aaf057d431d24e8e984539bed3e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/CalibrationScene/SceneTextures using Guid(9c3aaf057d431d24e8e984539bed3e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3e47f4e6adbcf9ac5744991822888d') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006759 seconds.
+  path: Assets/ArtisticAssets
+  artifactKey: Guid(c20731e45b4d1c94d809a416fdfc0615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets using Guid(c20731e45b4d1c94d809a416fdfc0615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a64d15a66cb1941cee7aa6a59cb2ad4') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023568 seconds.
+  path: Assets/Animations/GoodPickupGhost.anim
+  artifactKey: Guid(b6619c67fc4edef4c82d5e50635f8d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/GoodPickupGhost.anim using Guid(b6619c67fc4edef4c82d5e50635f8d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612ddbb46a12fa4bf037e957e150f664') in 0.000987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004137 seconds.
+  path: Assets/Animations/txt_AddPoints.controller
+  artifactKey: Guid(92cda1d436e38b4499143ca0877c4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/txt_AddPoints.controller using Guid(92cda1d436e38b4499143ca0877c4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8ab632510fdf4342c032c933c3fcfc') in 0.001145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.050853 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284b6d9112892823920c4a518038a02') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004288 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998662c06d700bf2a4f262fca55b79ea') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003716 seconds.
+  path: Assets/Scenes/scn_GameOver.unity
+  artifactKey: Guid(fd86276564ef97345896e7ae471b44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scn_GameOver.unity using Guid(fd86276564ef97345896e7ae471b44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ed38c5a8d464a3901e5c0598cf9365') in 0.000398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011669 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion
+  artifactKey: Guid(487429d9beca24ae78ab8ac96eb73dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion using Guid(487429d9beca24ae78ab8ac96eb73dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20beadf8a93c8f04fde55ccee58066e') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013940 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056cf6914e695e5184ae907488c442f7') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003930 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65a4ce8400ff49749468270fd34ede3') in 0.000737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008104 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da773251900eacd3b9cefcebc68fc81') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004014 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Editor/DigitalGlitchEditor.cs
+  artifactKey: Guid(51937fa103b7e49a2aecba62a4029a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Kino/Glitch/Editor/DigitalGlitchEditor.cs using Guid(51937fa103b7e49a2aecba62a4029a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449e31d286b0100cc81d663e3380fab') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023427 seconds.
+  path: Assets/Prefabs/LifePickup.prefab
+  artifactKey: Guid(ce14d5e697e1c7e40ab54f2a57253a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LifePickup.prefab using Guid(ce14d5e697e1c7e40ab54f2a57253a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9076467b854248874180f651735817') in 0.012334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.014334 seconds.
+  path: Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497987bc7e55dd88021baf1d41311979') in 0.000660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016351 seconds.
+  path: Assets/Animations/fade.anim
+  artifactKey: Guid(e116aeb5acb8d2d4aaf752972014188b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/fade.anim using Guid(e116aeb5acb8d2d4aaf752972014188b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfa36d0300af6695cd3dbf66053f36a') in 0.001137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.044746 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor/Utility
+  artifactKey: Guid(1c8c8f5affaaa4616a15e69dda142154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Editor/Utility using Guid(1c8c8f5affaaa4616a15e69dda142154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5829f1916be264d08badecedc3703425') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002945 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(23b0764dd94f5b449b2bca2ee54d5a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(23b0764dd94f5b449b2bca2ee54d5a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1964f2077b25b6901da50aa5bdfbcc') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028823 seconds.
+  path: Assets/Animations/anim_SubtractPoints.anim
+  artifactKey: Guid(34b6c55d8576e2b47a9e2fdf3786482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/anim_SubtractPoints.anim using Guid(34b6c55d8576e2b47a9e2fdf3786482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245864bf96c1a988da723cf163ff1f49') in 0.000908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.051704 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Utility
+  artifactKey: Guid(4d874762c14cf4223bd1bcfc86500326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/Assets/Reaktion/Utility using Guid(4d874762c14cf4223bd1bcfc86500326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d5298e7b44e847498360c41634f5c6') in 0.000426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017260 seconds.
+  path: Assets/Prefabs/BadPickup.prefab
+  artifactKey: Guid(b7f15cca2ffc11b44b41e31f49c2485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BadPickup.prefab using Guid(b7f15cca2ffc11b44b41e31f49c2485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c403f3a0738a326645b4f8f3813ffeb') in 0.011707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.014596 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb8c8d526b56b02a177794fb5aaffbd') in 0.000795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013470 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(b916ad080250d0949abcf4b7902d8142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(b916ad080250d0949abcf4b7902d8142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ea36fd0c151305cbd794ef7d4d4c40') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021237 seconds.
+  path: Assets/ArtisticAssets/Polishing/TwitterLogo.png
+  artifactKey: Guid(7d10a98d2af00af499e94d09241bcbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/TwitterLogo.png using Guid(7d10a98d2af00af499e94d09241bcbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cbc124fbbd0bf511e36c2c913c5e1c') in 0.013638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024990 seconds.
+  path: Assets/Prefabs/man_UIManager.prefab
+  artifactKey: Guid(31e4f0496d4f42e438e65b98830f7b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/man_UIManager.prefab using Guid(31e4f0496d4f42e438e65b98830f7b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1135be5a5bc9c552da00702cdd9c8d') in 0.006183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.003751 seconds.
+  path: Assets/_Scripts/Managers/VfxManager.cs
+  artifactKey: Guid(af1d5ba75537de249b6640f657aeb10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Managers/VfxManager.cs using Guid(af1d5ba75537de249b6640f657aeb10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eb770144e77134b6466d36028c999f') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026795 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d945af6f2a2ba96621f031f3cbc4d') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018359 seconds.
+  path: Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/README.md
+  artifactKey: Guid(99344530ab5c6b54da883bf6cf2b0eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded/Kejiro/Glitch/KinoGlitch-master/README.md using Guid(99344530ab5c6b54da883bf6cf2b0eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b84c0fbfd87aeee58cc4772047b870c') in 0.000912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002975 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c36a6349224b0ebebc1e51428e6fea') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004698 seconds.
+  path: Assets/ArtisticAssets/Polishing/SubTitle_2.png
+  artifactKey: Guid(a7087af1c804bfb4b973f4bca964e248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticAssets/Polishing/SubTitle_2.png using Guid(a7087af1c804bfb4b973f4bca964e248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3378dbd5dcf2266e07f46c6e545662') in 0.012328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.049957 seconds.
+  path: Assets/_Scripts/Player/Player_Movement.cs
+  artifactKey: Guid(fae1817d55d0f4044a59d76f27ec29c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Player/Player_Movement.cs using Guid(fae1817d55d0f4044a59d76f27ec29c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cc1579cce9c5e8f7f06cbb91e771da') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
